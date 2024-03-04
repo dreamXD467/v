@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&family=Zen+Dots&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-family: 'Zen Dots', cursive;
+}
+body
+{
+    display: grid;
+    gap: 4px;
+    height: 100vh;
+    font-family: "Zen Dots", sans-serif;
+    background: #151515;
+    color: #a529ff;
+}
+.launch-time
+{
+  display: flex;
+}
+.launch-time div
+{
+  flex-basis: 150px;
+  
+}
+.launch-time div p
+{
+  font-size: 60px;
+  margin-bottom: -14px;
+}
